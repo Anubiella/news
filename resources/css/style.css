@@ -97,21 +97,34 @@ h3{
 	font-size: 30px;
 	color: white;
 	text-align: left;
+	height: 300px;
 }
 .maincontent{
 	font-size: 40px;
-	background-image: url('../images/img-story-main.png');
+	background-image: url('../images/img-story-main.png' );
+	width: 630px;
 }
 .img2{
 	background-image: url('../images/img-story-2.png');
+	margin-top: 15px;
 }
 .img1{
 	background-image: url('../images/img-story-1.png');	
+	margin-top: 15px;
 }
 .img3{
 	background-image: url('../images/img-story-3.png');	
+	margin-top: 15px;
 }
-
-.imagecontent span, .imagecontent h2{
+.art{
+	height: 250px;
+}
+.story, .story1{
 	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.stories{
+	display: flex;
+	justify-content: space-between;
 }
