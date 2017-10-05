@@ -7,7 +7,38 @@ html, body, h1, h2, h3, h4, p, ul, li, div, a{
 	font-size: 100%;
 	text-decoration: none;
 }
-
+/* HEADER CONSTRUCTION*/
 header{
 	display: flex;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	border: 1px solid black;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 20px;
+}
+.logo img{
+	padding-right: 10px;
+}
+#logotext{
+	color: MediumAquamarine;
+}
+.uppernav{
+	display: block;
+	flex-grow: 1;
+	padding-right: 40px;
+}
+.uppernav span{
+	display: inline-block;
+	color: black;
+	text-decoration: underline;
+	margin: 0 20px;
 }
