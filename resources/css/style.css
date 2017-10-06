@@ -7,7 +7,6 @@ html, body, h1, h2, h3, h4, p, ul, li, div, a{
 	font-size: 100%;
 	text-decoration: none;
 }
-
 /* HEADER CONSTRUCTION*/
 header{
 	display: flex;
@@ -24,6 +23,7 @@ header{
 }
 body{
 	font-family: Georgia, Arial, sans-serif;
+	color: black;
 }
 .logo {
 	display: flex;
@@ -53,13 +53,11 @@ body{
 h2{
 	font-size: 24px;
 	font-weight: bold;
-	color: black;
 	padding: 16px 0;
 }
 h3{
 	font-size: 16px;
 	font-weight: bold;
-	color: black;
 	padding: 16px 0;
 	margin-bottom: 41px;
 	text-align: center;
@@ -88,9 +86,9 @@ h3{
 }
 .article p{
 	font-size: 17px;
-	color: black;
 }
 .imagecontent{
+	margin-top: 15px;
 	display: flex;
   	font-weight: bold;
 	font-size: 30px;
@@ -100,20 +98,17 @@ h3{
 }
 .maincontent{
 	font-size: 40px;
-	background-image: url('../images/img-story-main.png' );
+	background-image: url('../images/img-story-main.png');
 	width: 630px;
 }
 .img2{
 	background-image: url('../images/img-story-2.png');
-	margin-top: 15px;
 }
 .img1{
 	background-image: url('../images/img-story-1.png');	
-	margin-top: 15px;
 }
 .img3{
 	background-image: url('../images/img-story-3.png');	
-	margin-top: 15px;
 }
 .art{
 	height: 250px;
